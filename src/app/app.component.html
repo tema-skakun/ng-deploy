@@ -1,0 +1,24 @@
+<div class="chart-type-buttons">
+  <div *ngFor="let type of chartTypes">
+    <button (click)="selectChart(type)"
+            [class.active]="selectedChartType === type">
+      {{ type | titlecase }} Chart
+    </button>
+  </div>
+</div>
+
+<div>
+  <div *ngIf="selectedChartType === 'pie'">
+    <app-chart-pie></app-chart-pie>
+  </div>
+  <div *ngIf="selectedChartType === 'column'">
+    <app-chart-column></app-chart-column>
+  </div>
+  <div *ngIf="selectedChartType === 'line'">
+    <app-chart-line></app-chart-line>
+  </div>
+  <div *ngIf="selectedChartType === 'stack-bar'">
+    <app-chart-stack-bar></app-chart-stack-bar>
+  </div>
+  <div class="text">Data Distribution Plot</div>
+</div>

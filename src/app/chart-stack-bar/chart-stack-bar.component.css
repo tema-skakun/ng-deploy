@@ -1,0 +1,13 @@
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}

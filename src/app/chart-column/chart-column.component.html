@@ -1,0 +1,8 @@
+<div echarts [options]="chartOptions" class="chart"></div>
+
+<div class="filter-buttons">
+    <button (click)="filterByLetter('A')">Filter by Letter A</button>
+    <button (click)="filterByLetter('O')">Filter by Letter O</button>
+    <button (click)="filterByFreq(12)">Filter by Freq 12</button>
+    <button (click)="resetFilter()">Reset Filter</button>
+</div>

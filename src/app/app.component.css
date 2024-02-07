@@ -1,0 +1,25 @@
+.chart-type-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+button {
+    background-color: #ddd;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #ffffff;
+    color: #6b0000;
+}
