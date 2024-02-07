@@ -3,8 +3,8 @@ import {BaseChartComponent} from "../base-chart/base-chart.component";
 
 @Component({
   selector: 'app-chart-stack-bar',
-  templateUrl: './chart-stack-bar.component.html',
-  styleUrl: './chart-stack-bar.component.css'
+  templateUrl: '../base-chart/base-chart.component.html',
+  styleUrl: '../base-chart/base-chart.component.css'
 })
 export class ChartStackBarComponent extends BaseChartComponent {
   updateChart() {

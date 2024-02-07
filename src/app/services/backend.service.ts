@@ -8,7 +8,7 @@ import {ChartData} from "../chart.model";
 })
 export class BackendService {
   // private backendUrl = 'http://localhost:3000/api/chart-data';
-  private backendUrl = './chart_data.json';
+  private backendUrl = '../../assets/chart_data.json';
 
   constructor(private http: HttpClient) { }
 

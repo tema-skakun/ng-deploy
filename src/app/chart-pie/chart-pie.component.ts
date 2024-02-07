@@ -3,8 +3,8 @@ import {BaseChartComponent} from "../base-chart/base-chart.component";
 
 @Component({
   selector: 'app-chart-pie',
-  templateUrl: './chart-pie.component.html',
-  styleUrl: './chart-pie.component.css'
+  templateUrl: '../base-chart/base-chart.component.html',
+  styleUrl: '../base-chart/base-chart.component.css'
 })
 export class ChartPieComponent extends BaseChartComponent {
    updateChart() {

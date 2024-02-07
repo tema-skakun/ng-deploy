@@ -1,13 +1,10 @@
-import {Component, OnInit} from '@angular/core';
-import {ChartData} from "../chart.model";
-import {EChartsOption} from "echarts";
-import {BackendService} from "../services/backend.service";
+import {Component, OnInit} from '@angular/core';;
 import {BaseChartComponent} from "../base-chart/base-chart.component";
 
 @Component({
   selector: 'app-chart-column',
-  templateUrl: './chart-column.component.html',
-  styleUrl: './chart-column.component.css'
+  templateUrl: '../base-chart/base-chart.component.html',
+  styleUrl: '../base-chart/base-chart.component.css'
 })
 export class ChartColumnComponent extends BaseChartComponent {
   updateChart() {

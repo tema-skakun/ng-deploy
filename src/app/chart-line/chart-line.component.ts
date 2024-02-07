@@ -3,8 +3,8 @@ import {BaseChartComponent} from "../base-chart/base-chart.component";
 
 @Component({
   selector: 'app-chart-line',
-  templateUrl: './chart-line.component.html',
-  styleUrl: './chart-line.component.css'
+  templateUrl: '../base-chart/base-chart.component.html',
+  styleUrl: '../base-chart/base-chart.component.css'
 })
 export class ChartLineComponent extends BaseChartComponent {
   updateChart(): void {
