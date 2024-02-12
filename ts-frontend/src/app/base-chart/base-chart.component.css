@@ -11,3 +11,10 @@
     align-items: center;
     height: 80vh;
 }
+
+button {
+    background-color: #ddd;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}

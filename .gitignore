@@ -8,11 +8,15 @@
 
 # Node
 /node_modules
+/ts-backend/node_modules
+/ts-frontend/node_modules
 npm-debug.log
 yarn-error.log
 
 # IDEs and editors
 .idea/
+/ts-backend/.idea/
+/ts-frontend/.idea/
 .project
 .classpath
 .c9/
@@ -30,6 +34,7 @@ yarn-error.log
 
 # Miscellaneous
 /.angular/cache
+/ts-frontend/.angular/cache
 .sass-cache/
 /connect.lock
 /coverage
@@ -39,4 +44,6 @@ testem.log
 
 # System files
 .DS_Store
+/ts-backend/.DS_Store
+/ts-frontend/.DS_Store
 Thumbs.db

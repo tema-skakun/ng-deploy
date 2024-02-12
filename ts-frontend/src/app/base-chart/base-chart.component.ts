@@ -11,6 +11,12 @@ export abstract class BaseChartComponent implements OnInit {
   originalData: ChartData[] = [];
   chartOptions: EChartsOption = {};
 
+  // selectedFilterType: string | null = 'Reset Filter';
+  // filterTypes: string[] = ['Filter By Letter', 'Filter By Freq 12', 'Show Range A-L', 'Show Range M-Z', 'Reset Filter'];
+  // selectFilter(type: string) {
+  //   this.selectedFilterType = type;
+  // }
+
   constructor(private backendService: BackendService) { }
 
   ngOnInit(): void {
